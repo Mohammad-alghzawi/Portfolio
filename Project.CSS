@@ -8,7 +8,7 @@ html{
 }
 body{
     grid-template-columns: auto auto auto auto auto auto auto auto auto ;
- background-color:rgb(248, 229, 205);
+    background-color: bisque;
  
 }
 
@@ -26,28 +26,28 @@ body{
     background-color: #466887;
 }
 .img img{
-   padding-top: 250px;
-    width: 400px;
-    height: 400px;
-    padding-right: 50px;
-    margin-top: -100px;
-}
+ 
+ 
+       
+        width: 315px;
+        height: 292px;
+        margin-right: 20px;
+        
+    
+    }   
+       
+
 .my-name{
-    margin-top: 250px;
    padding-left: 100px;
+   margin-top: 20px;
 }
 
 
 .header1{
-    position: fixed;
-      background-color: #466887;
-      grid-column: 1/3;
-      display: flex;
-      justify-content: space-between;
-      gap: 50px;
-      margin-top: 0;
-      width: 100%;
-     z-index: 10;
+  display: flex;
+  }
+  nav{
+    flex: 1;
   }
   
   .header1 img{
@@ -59,19 +59,34 @@ body{
       list-style-type: none;
       margin-top: 25px;
   }
+nav  li{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+  }
   
-  .sub-nav a{
+ .nav-item a{
       text-decoration:none;
       color: black;
       padding: 7px;
       transition: 0.4s;
       
   }
-  .sub-nav a:hover{
+  .navbar-brand {
+    margin: 0 !important;
+  }
+ .nav-item a:hover{
       background-color:#f7a001;
        border-radius: 5px; 
   }
+  .information {
+    display: flex;
+    justify-content: space-between;
+    background-color: #466887;
+    align-items: center;
+    height: 56vh;
 
+  }
 .information p{
     width:700px;
     font-size: 30px;
@@ -79,13 +94,19 @@ body{
     
 }
 .information h2{
-    margin-bottom: 40px;
-    font-size:40px ;
+
+        margin-bottom: 40px;
+        font-size: 40px;
+        margin-top: 94px;
+
 }
+
+
 
 .my-name::after{
     content: " ";
     animation: animate 2s infinite ease-in-out ;
+   
     }
 @keyframes animate {
 
@@ -97,6 +118,7 @@ body{
     content: "Mohammad AL-Ghzawi";
    
 }
+
 }
 
 
@@ -213,33 +235,37 @@ body{
 .left{
    
     background-color: #BFB496;
-    width:150px;
+    width:148px;
     height:400px;
-    margin-top: 50px;
-   margin-left: 250px;
+    margin-top: 44px;
+     margin-left: 121px;
 }
 .middle{
-
-   margin-top: 170px;
-
-   
+    margin-left: 0px;
+    margin-top: 77px;
+    font-size: 14px;
 }
 .color1{
     background-color: #466887;
     color: white;
     position: absolute;
      top: 66px;
-    left: 330px;
+    left: 200px;
     padding: 10px;
 }
 .right img{
-
-    margin-top:30px;
-    width: 125px;
-
+    width: 140px;
+    margin-left: 0px;
+    padding: 10px;
     
-
 }
+.class{
+    margin-top: -360;
+}
+.section3 .right{
+    padding-top: 40px;
+}
+
 
 
 
@@ -257,8 +283,9 @@ body{
     height: 50px;
     display: flex;
    justify-content: space-around;
-    padding: 50px;
+    padding: 105px;
     position: relative;
+    
 }
 
 .color2{
@@ -287,10 +314,10 @@ body{
 .color3{
     background-color: #466887;
     color: white;
-    width: 100px;
+    width: 155px;
     margin-top: 90px;
     padding: 10px;
-    margin-left:30px;
+    margin-left:37px;
 }
 
 .left1{
@@ -306,7 +333,8 @@ body{
 
 }
 .stars{
-    margin-top: 90px;
+    margin-top: 120px;
+    
 }
 .fa-star {
     color: #f7a001;
@@ -324,7 +352,7 @@ body{
     background-color: #466887;
     color: white;
     padding: 10px;
-    width: 100px;
+    width: 155px;
     margin-top: 60px;
     text-align: center;
     margin-bottom: 20px;
@@ -433,7 +461,7 @@ margin-bottom: 25px;
           margin-right: 100px;
       }
       
-      .sub-nav a{
+     .nav-item a{
           text-decoration:none;
           color: black;
           padding: 7px;
@@ -458,6 +486,7 @@ margin-bottom: 25px;
           width:160px;
           height: 200px;
           margin-left: 10px;
+          margin-top: 30px;
           
          
       }
@@ -490,17 +519,18 @@ margin-bottom: 25px;
         .left{
            
             background-color: #BFB496;
-            width:150px;
-            height:400px;
-            margin-top: 50px;
-           margin-left: 100px;
+    width: 100px;
+    height: 415px;
+    margin-top: 50px;
+    margin-left: 40px;
         }
         
         .color1{
           
-             top: 66px;
-            left: 200px;
-            padding: 10px;
+            top: 55px;
+            left: 95px;
+            padding: 5px;
+            font-size: 15px;
        
         
        
@@ -519,6 +549,7 @@ margin-bottom: 25px;
  .section4 div{
    
      width:500px;
+     font-size: 10px;
      
  }
 .color4{
@@ -534,8 +565,8 @@ margin-bottom: 25px;
 
 
 .section6 .contant img{
-    width: 50%;
-    padding-left: 10px;
+    width: 94%;
+    padding-left: 15px;
      
 }
 .section6 .contant .rightt{
@@ -577,14 +608,33 @@ margin-bottom: 25px;
    }
 
    .copy{
-    font-size: 5px;
-    top: 33px;
-    right: 0px;
+    font-size: 7px;
+    top: 25px;
+    right: 28px;
    }
    i{
     font-weight: bold;
     font-size:15px;
     color:black;
+   }
+   .sub-skills{
+    gap: 226px;
+   }
+   .back-skills{
+    margin-left: 265px;
+   }
+   .middle{
+    margin-top: 85px;
+    font-size: 14px;
+   }
+   .right img{
+    margin-right: 15px;
+    margin-top: 55px;
+    width: 116px;
+   }
+   .stars{
+    margin-top: 131px;
+    margin-right: 30px;
    }
 }
 
@@ -601,17 +651,15 @@ margin-bottom: 25px;
         position: relative;
     }
     .img img{
-       padding-top:200px;
-        width: 100px;
-        height: 100px;
-        position: absolute;
-         top:0px;
-        left: 150px;
-        
+        width: 125px;
+         height: 120px;
+  
     }
     .my-name{
         margin-top: 200px;
        padding-left: 0px;
+       margin-top: 35px;
+
        
     }
     
@@ -636,7 +684,7 @@ margin-bottom: 25px;
           margin-top: 25px;
       }
       
-      .sub-nav a{
+    .nav-item a{
           text-decoration:none;
           color: black;
           padding: 0px;
@@ -647,15 +695,26 @@ margin-bottom: 25px;
     
     .information p{
         width:250px;
-        font-size: 25px;
-        padding-left: 20px;
+        font-size: 12px;
+        padding-left: 0px;
         
         
+    }
+    .information{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    @keyframes animate {
+     0%{
+        content: "Mohammad AL-Ghzawi";
+     }  
     }
     .information h2{
-        margin-bottom: 40px;
-        font-size:40px ;
-    }
+     
+            margin-bottom: 40px;
+            font-size: 20px;
+        
+        }
     
 
 
@@ -667,7 +726,9 @@ margin-bottom: 25px;
         margin-left: 150px;
     }
     .section3{
-        right: 200px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+
     }
 
     .section4 div{
@@ -678,12 +739,16 @@ margin-bottom: 25px;
        
       
         .color2 {
-            left: -10px;
-            top: 5px;
+            left: 10px;
+            top: -31px;
             
         }
         .bold{
-            font-size: 20px;
+            font-size: 14px;
+        }
+        .color1{
+            top: 90px;
+            left: 142px;
         }
 
 
@@ -706,7 +771,7 @@ margin-bottom: 25px;
         grid-template-columns: 1fr;
     }
     .logo-footer img{
-        width:60px !important;
+        width:38px !important;
     }
     .info-mid{
         font-size: 8px;
@@ -729,7 +794,7 @@ margin-bottom: 25px;
     .copy{
         font-size: 6px;
         right: 15px;
-        top: 20px;
+        top: 7px;
     }
     .copy i{
         font-size: 10px;
@@ -739,13 +804,37 @@ margin-bottom: 25px;
     }
     .section6 .contant img{
         margin-top: 45px;
+        margin-left: 30px;
     }
     .right img{
-        margin-left: 10px;
+        margin-left: 0px;
     }
     .left{
-        margin-left: 220px;
-        margin-right: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        height: 150px;
+      
+      
+    }
+    .middle{
+        padding-left: 20px;
+        font-size: 12px;
+    }
+    .section3 .right{
+        padding-top: 7px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .section4 div{
+        width: 100%;
+        padding: 33px;
+        height: 100%;
+        font-size: 10px;
+       
+    }
+    .my-name::after{
+        animation-play-state: paused;
     }
     
 }
