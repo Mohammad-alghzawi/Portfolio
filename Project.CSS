@@ -772,18 +772,19 @@ margin-bottom: 25px;
         grid-template-columns: 1fr;
     }
     .logo-footer img{
-        width:38px !important;
+        width: 75px !important;
+        margin-left: 40px;
     }
     .info-mid{
-        font-size: 8px;
+        font-size: 10px;
     }
     .info-mid2{
-        font-size: 7px;
+        font-size: 10px;
         margin-left: 10px;
     }
     .nav-footer{
-        font-size: 8px;
-        margin-left: 15px;
+        font-size: 10px;
+        margin-left: 4px;
     }
     .icon5 i{
         font-size: 15px;
@@ -793,9 +794,9 @@ margin-bottom: 25px;
         font-size: 10px;
     }
     .copy{
-        font-size: 6px;
-        right: 15px;
-        top: 7px;
+        font-size: 7px;
+        right: 0px;
+        top: 0px;
     }
     .copy i{
         font-size: 10px;
@@ -837,6 +838,13 @@ margin-bottom: 25px;
     .my-name::after{
         animation-play-state: paused;
     }
+    .section7{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 263px;
+        justify-content: space-around;
+    }
+
     
 }
 
